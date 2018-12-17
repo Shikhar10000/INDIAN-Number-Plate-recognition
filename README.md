@@ -14,9 +14,6 @@ The project developed using TensorFlow to detect the License Plate from a car an
 * <a href='https://github.com/madmaze/pytesseract'>pytesseract</a><br>
 * <a href='https://github.com/tzutalin/labelImg'>labelImg</a><br>
 
-### ABOUT PROJECT
-
-* TensorFlow is an open-source software library **(Deep learning)** for dataflow programming across a range of tasks. It is a symbolic math library, and also used for machine learning applications such as neural networks. So we have planned to use it for number plate detection.
 
 #### TRAINING PHASE -- IMAGE LABELING
 
@@ -53,9 +50,5 @@ The project developed using TensorFlow to detect the License Plate from a car an
 <p align="center">
   <img src="custom_plate/image_readme/char_recog.png" width=900 height=600>
 </p> 
-
-#### MOTION DETECTION PART
-
-* The basic motion capturing has been implemented to capture the picture of moving vehicle by using the **openCV** where the threshold of the camera is fixed (threshold value changes in according to frame's boundary area). If the vehicle touches the boundary the picture is captured. **(In progress)**
 
 
